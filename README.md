@@ -4,7 +4,7 @@
 
 ambari-server stop
 
-# Install the mpack in ambari-server
+#Install the mpack in ambari-server
 
 VERSION=hdp-select status hadoop-client | sed 's/hadoop-client - \([0-9]\.[0-9]\).*/\1/'
 
